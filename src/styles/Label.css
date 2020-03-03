@@ -1,0 +1,23 @@
+.labelItem {
+  padding: 10px;
+}
+.labelImage {
+  height: 170px;
+  box-sizing: border-box;
+}
+
+.labelName {
+  font-family: "Mouser";
+  font-size: 48px;
+  box-sizing: border-box;
+  color: white;
+  -webkit-text-stroke: 2px black;
+}
+
+.labelBarrier {
+  height: 140px;
+  border: 2px solid #333;
+  border-radius: 2px 2px 2px 2px;
+  margin-left: 30px;
+
+}

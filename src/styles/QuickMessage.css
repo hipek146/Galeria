@@ -1,0 +1,18 @@
+.quickMessage {
+  color: #eceff1;
+  margin: 10px;
+  background: #2572a3;
+  padding: 2px;
+  box-sizing: border-box;
+  border: 2px solid #062368;
+  border-radius: 6px 6px 6px 6px;
+  font-family: "Fira Sans";
+  font-weight: 700;
+}
+
+.quickMessage:hover {
+  cursor: pointer;
+  background: #8d1010;
+  border: 2px solid #222;
+  box-shadow: 0 2px 2px -1px #333;
+}

@@ -1,0 +1,23 @@
+.barButton {
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  font-size: 28px;
+  color: white;
+  padding: 10px;
+}
+
+.barButton:hover {
+  cursor: pointer;
+  color: #ffe13d;
+}
+
+.barButtonHeader{
+  font-size: 38px;
+  color: #ffd700;
+  margin-right: 1.5%;
+}
+
+.barButtonHeader:hover {
+  cursor: pointer;
+  color: #ffd700;
+}

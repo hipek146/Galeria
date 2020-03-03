@@ -1,0 +1,28 @@
+.newsPictureDescription {
+  display: block;
+  display: -webkit-box;
+  font-size: 16px;
+  line-height: 1.3;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+
+.newsPictureButton {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  padding: 5px;
+  background: #444;
+  color: #f4f4f4;
+  border: 2px solid #333;
+  border-radius: 4px;
+  font-family: Fira Sans;
+  font-size: 17px;
+  font-weight: bold;
+}
+.newsPictureButton:hover {
+  cursor: pointer;
+}

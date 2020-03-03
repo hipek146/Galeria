@@ -1,0 +1,226 @@
+.pictureScreenMain {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: rgba(40,40,40,0.7);
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+
+.pictureScreenTouchArea {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.pictureScreenContent {
+  display: flex;
+  background: #fff;
+  width: 1200px;
+  padding: 15px;
+  border: 3px solid #222;
+  box-shadow: 0px 2px 10px 1px #111;
+  flex-direction: column;
+  max-height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.pictureScreenCloseButton {
+  position: absolute;
+  right: 0px;
+  top: -8px;
+  font-weight: bold;
+  font-size: 24px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 0px;
+}
+.pictureScreenCloseButton:hover {
+  cursor: pointer;
+}
+
+.pictureScreenHeader {
+  display: flex;
+}
+
+.pictureScreenImage {
+  width: 700px;
+  height: 500px;
+  object-fit: contain;
+  filter: drop-shadow(0px 0px 2px rgba(0,0,0,.5)) drop-shadow(0px 0px 3px rgba(0,0,0,.5));
+  padding: 7px;
+  box-sizing: border-box;
+}
+
+.pictureScreenTitle {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pictureScreenName {
+  font-family: "Fira Sans";
+  font-size: 32px;
+  font-weight: bold;
+  padding: 7px;
+}
+
+.pictureScreenPriceWrapper {
+  width: 170px;
+  box-sizing: border-box;
+  padding: 8px;
+}
+
+.pictureScreenPrice {
+  font-size: 22px;
+  color: #ffe13d;
+  background: #222;
+  padding: 2px;
+  border-radius: 4px;
+  border: 2px solid #111;
+}
+.pictureScreenPricePlaces {
+  font-size: 13px;
+  position: relative;
+  bottom: 9px;
+  right: 3px;
+}
+
+.pictureScreenInfoWrapper {
+  min-width: 260px;
+  margin-top: 15px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 2px 1px #777;
+}
+
+.pictureScreenInfoLeft {
+  text-align: left;
+}
+
+.pictureScreenInfoRight {
+  text-align: right;
+}
+
+.pictureScreenInfoPair {
+  background: #e2e2e2;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+  border-bottom: 1px solid #555;
+}
+
+.pictureScreenInfoUnpair {
+  background: #eee;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+  border-bottom: 1px solid #555;
+}
+
+.pictureScreenDescription {
+  text-align: left;
+  padding: 8px;
+}
+
+.pictureScreenDescriptionHeader {
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 27px;
+}
+
+
+.pictureScreenForm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pictureScreenInput {
+  width: 280px;
+  font-size: 18px;
+  box-sizing: border-box;
+  margin: 6px;
+  min-width: 0px;
+  resize: none;
+}
+.pictureScreenInputEroor {
+  border: 2px solid red;
+}
+
+.pictureScreenLabel {
+  width: 140px;
+}
+.pictureScreenSumFormWrapper {
+  display: flex;
+  justify-content: space-between;
+  min-width: 400px;
+}
+.pictureScreenSumForm {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.pictureScreenSumLabel {
+  font-weight: bold;
+  font-size: 18px;
+  height: 26px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.pictureScreenOrder {
+  font-family: "Fira Sans";
+  font-weight: bold;
+  background: #8a0e0e;
+  margin: 4px;
+  padding: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 19px;
+  align-self: center;
+  border-radius: 4px;
+  border: 2px solid #520606;
+  color: #dfdfdf;
+}
+.pictureScreenOrder:hover {
+  cursor: pointer;
+}
+
+.pictureScreenBack {
+  font-family: "Fira Sans";
+  font-weight: bold;
+  background: #444;
+  margin: 4px;
+  padding: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 19px;
+  align-self: center;
+  border-radius: 4px;
+  border: 2px solid #222;
+  color: #dfdfdf;
+}
+.pictureScreenBack:hover {
+  cursor: pointer;
+}
+
+.pictureScreenCkeckboxError {
+  box-shadow: 0px 0px 1px 1px red;
+}
+
+.no-scroll{
+  overflow: hidden;
+}

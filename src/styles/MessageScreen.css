@@ -1,0 +1,83 @@
+.messageScreenMain {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: rgba(40,40,40,0.7);
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+
+.messageScreenContent {
+  width: 800px;
+  min-width: 0;
+  background: #555;
+  border: 2px solid #111;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.messageScreenMainHeader {
+  padding: 7px;
+  margin-bottom: 20px;
+  font-family: "Fira Sans";
+  font-size: 32px;
+  font-weight: bold;
+  color: #eee;
+}
+
+.messageScreenHeader {
+  font-family: "Fira Sans";
+  color: #eee;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: left;
+  padding: 4px;
+  padding-left: 12px;
+}
+
+.messageScreenTextarea {
+  width: 100%;
+  height: 200px;
+  font-size: 18px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  padding: 5px;
+  resize: none;
+}
+
+.messageScreenFeedback {
+  font-size: 16px;
+  padding: 3px;
+}
+
+.messageScreenButton {
+  margin: 5px;
+  padding: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Fira Sans";
+  font-size: 20px;
+  font-weight: bold;
+  color: #eee;
+  background: #222;
+  align-self: center;
+  border: 2px solid #111;
+  border-radius: 4px;
+  margin-top: 12px;
+}
+.messageScreenButton:hover {
+  cursor: pointer;
+  color: #ffe13d;
+  background: #1a1a1a;
+}
+
+.no-scroll{
+  overflow: hidden;
+}

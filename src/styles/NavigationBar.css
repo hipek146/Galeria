@@ -1,0 +1,16 @@
+.navigationBar {
+  display: flex;
+  alignItems: center;
+  justifyContent: center;
+  flex-direction: row;
+}
+
+.NavigationBarMenu {
+  width: 60px;
+  height: 60px;
+  padding-right: 10px;
+}
+.NavigationBarMenu:hover {
+  cursor: pointer;
+  filter:contrast(0) sepia(100%) hue-rotate(15deg) brightness(1.6) saturate(0.95);;
+}

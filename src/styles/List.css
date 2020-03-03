@@ -1,0 +1,59 @@
+.listMain {
+  height: 60px;
+  user-select: none;
+  font-size: 20px;
+  padding: 12px;
+  box-shadow: 0 0 2px 1px #333;
+  background: #595959;
+  margin-top: 9px;
+}
+
+.listMain:hover {
+  cursor: pointer;
+}
+
+.listName {
+  font-size: 22px;
+  padding-bottom: 4px;
+  padding-left: 9px;
+  text-align: left;
+}
+
+.listValue {
+  height: 34px;
+  background: #666;
+  border: 2px solid #111;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 2px;
+  color: #ffd700;
+}
+
+.listValueVisible {
+  height: 34px;
+  background: #666;
+  border: 4px solid #111;
+  border-radius: 6px 6px 0 0;
+  box-sizing: border-box;
+  padding: 0px;
+  color: #ffd700;
+}
+
+.list {
+  background: #777;
+  border: 4px solid #111;
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  position: relative;
+  z-index: 8;
+}
+
+.listElement {
+  padding: 4px;
+  border-bottom: 1px solid #444;
+}
+
+.listElement:hover {
+  background: #444;
+  color: #ffd700;
+}

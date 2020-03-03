@@ -1,0 +1,21 @@
+.storeScreenOrderWrapper {
+  margin: 5%;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.storeScreenOrder {
+  width: 100%;
+  background: #444;
+  color: #eee;
+  font-family: "Fira Sans";
+  font-size: 28px;
+  font-weight: bold;
+  border: 2px solid #333;
+  outline: 1px solid #000;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.storeScreenOrder:hover {
+  cursor: pointer;
+  color: #ffd700;
+}
